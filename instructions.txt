@@ -1,0 +1,21 @@
+This file contains data used in 'Automatic identification of microseismic and blasting signals using Random Forest method' in GRL
+All data in the form of '.mat' can be opened in matlab
+
+File TF contains the time-frequecny results of the improved HHT for 500 signals. 
+TF1 to TF250 are the results of MS signals. 
+TF251 to TF500 are the results of Blasting signals.
+TF1 to TF200 and TF251 to TF450 are results of signals in training set of RF.
+TF201 to TF250 and TF451 to TF500 are results of signals in testing set of RF.
+
+File SVD contains the singular values of time-frequecny spectrum of 500 signals in File TF. 
+singular1 to singular250 are the results of MS signals. 
+singular251 to singular500 are the results of Blasting signals.
+singular1 to singular200 and singular251 to singular450 are results of signals in training set of RF.
+singular201 to singular250 and singular451 to singular500 are results of signals in testing set of RF.
+
+input_ML.mat is a 500 ¡Á105 matrix.
+each row of input_ML.mat is the 105 features of corresponding singular values of signals in 'File TF and File TF'
+row1 to row250 are the results of MS signals. 
+row251 to row500 are the results of Blasting signals.
+row1 to row200 and row251 to row450 are results of signals in training set of RF.
+row201 to row250 and row451 to row500 are results of signals in testing set of RF.
